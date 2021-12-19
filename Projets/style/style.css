@@ -1,0 +1,84 @@
+html
+{ }
+
+*
+{ margin: 0;
+  padding: 0;}
+
+body {
+    font-family: "trebuchet ms", arial, sans-serif;
+    font-size: .84em;
+    color: #222;
+    line-height: 1.4em;
+    background-color: #E7E8EA;
+    width: 900px;
+    margin: 10px auto 0px auto;
+}
+  
+h1, h2, h3, h4, h5, h6 
+{ color: #362C20;
+  letter-spacing: 0em;
+  padding: 0 0 5px 0;}
+
+h1, h2, h3
+{ font: normal 150% arial;
+  margin: 0 0 15px 0;
+  padding: 0 0 5px 0;
+  color: #A30101;}
+
+h2
+{ font-size: 150%;
+  padding: 9px 0 5px 0;
+  color: #36B0E3;}
+
+
+a, a:hover
+{ outline: none;
+  text-decoration: underline;
+  color: #414045;}
+
+p
+{ line-height: 1.5em;
+  padding-bottom: 17px;}
+
+
+#basic-accordian
+{ padding: 0px;
+  background: #FFF;}
+
+.accordion_headings
+{ padding: 10px 25px 10px 25px;
+  background: #444;
+  color: #FFF;
+   
+  border-bottom: 1px solid #222;
+  font-size: 200%;
+  position: relative;
+  z-index: 20;}
+
+  a.button {
+  background-color: #36B0E3;
+  box-shadow: 0 5px 0 #105cad;
+  color: white;
+  padding: 1em 1.5em;
+  position: relative;
+  text-decoration: none;
+  display: inline-block;
+        }
+
+.accordion_child
+{ padding: 25px;
+  background: #FFF;
+  border-left: 34px solid #36B0E3;}
+
+.header_highlight
+{ background: #36B0E3;
+  border-bottom: 1px solid #36B0E3;
+  border-left: 10px solid #36B0E3;}
+
+#basic-accordian #Lycee {
+    
+    border-left: 34px solid #36B0E3;
+    border-bottom: 1px solid #36B0E3;
+    background: #E7E8EA;
+    color: #000;
